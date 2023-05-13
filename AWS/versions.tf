@@ -10,4 +10,10 @@ terraform {
 provider "selfaws" {
     region = "us-east-1"
     profile = "selfamit"
+    alias = "selfaws_east"
+}
+
+provider "selfaws" {
+    region = "us-west-1"
+    alias = "selfaws_west"
 }

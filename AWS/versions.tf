@@ -16,4 +16,5 @@ provider "selfaws" {
 provider "selfaws" {
     region = "us-west-1"
     alias = "selfaws_west"
+    profile = "selfamit"
 }

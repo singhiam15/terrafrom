@@ -9,6 +9,5 @@ terraform {
 }
 provider "selfaws" {
     region = "us-east-1"
-    access_key = "" // Need to add user access key, that will get from aws IAM page
-    secret_key = "" // Need to put user secret key.
+    profile = "selfamit"
 }
